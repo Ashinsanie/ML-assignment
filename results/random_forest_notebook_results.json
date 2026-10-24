@@ -1,0 +1,36 @@
+{
+  "best_parameters": {
+    "classifier__class_weight": "balanced",
+    "classifier__max_depth": null,
+    "classifier__min_samples_leaf": 1,
+    "classifier__n_estimators": 200
+  },
+  "best_cv_f1": 0.6855187906257969,
+  "test_metrics_threshold_0.50": {
+    "Accuracy": 0.8963539532978287,
+    "Precision": 0.6524822695035462,
+    "Recall": 0.7225130890052356,
+    "F1-score": 0.6857142857142857,
+    "ROC-AUC": 0.9248631343940152,
+    "PR-AUC": 0.7182819131972771
+  },
+  "best_threshold": 0.5200000000000001,
+  "test_metrics_best_threshold": {
+    "Accuracy": 0.8959442851290454,
+    "Precision": 0.6545893719806763,
+    "Recall": 0.7094240837696335,
+    "F1-score": 0.6809045226130653,
+    "ROC-AUC": 0.9248631343940152,
+    "PR-AUC": 0.7182819131972771
+  },
+  "confusion_matrix_threshold_0.50": [
+    [
+      1912,
+      147
+    ],
+    [
+      106,
+      276
+    ]
+  ]
+}
